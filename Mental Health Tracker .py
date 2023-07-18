@@ -1,8 +1,9 @@
-#Importing libraries and reading CSV Files
+#Importing libraries
 import numpy as np 
 import pandas as pd 
 import seaborn as sns
 import matplotlib.pyplot as plt
+#Reading CSV Files
 df1 = pd.read_csv("https://raw.githubusercontent.com/imonishkumar/AI-Projects/main/mental%20and%20substance%20use%20as%20share%20of%20disease.csv")
 df2=pd.read_csv("https://raw.githubusercontent.com/imonishkumar/AI-Projects/main/prevalence%20by%20mental%20and%20substance%20use%20disorder.csv")
 data = pd.merge(df1, df2)
