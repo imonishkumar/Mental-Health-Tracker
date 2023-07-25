@@ -1,3 +1,5 @@
+# Mental Health Tracker project
+
 # Mental Health Tracker
 
 This project aims to develop a mental health tracker using machine learning algorithms to predict and evaluate mental health outcomes. The project utilizes regression algorithms to build predictive models and assess their performance on both training and testing datasets.
